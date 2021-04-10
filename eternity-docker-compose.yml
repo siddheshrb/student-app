@@ -1,0 +1,13 @@
+version: "3"
+services:
+    db:
+        image: "postgres:13"
+        container_name: "eternity-pg"
+        environment:
+            POSTGRES_PASSWORD: "eternity123"
+        ports:
+            - "54320:5432"
+        volumes:
+            - eternity_dbdata:/var/lib/postgresql/data
+volumes:
+    eternity_dbdata:
