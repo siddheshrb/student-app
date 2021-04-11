@@ -34,6 +34,6 @@ public class StudentConfig {
     }
 
     private String getFakeEmail(Faker faker) {
-        return faker.name().firstName() + "." + faker.name().lastName() + "@" + faker.company().name() + ".com";
+        return faker.name().firstName() + "." + faker.name().lastName() + "@gmail.com";
     }
 }
