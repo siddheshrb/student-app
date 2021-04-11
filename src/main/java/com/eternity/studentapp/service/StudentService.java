@@ -24,17 +24,4 @@ public class StudentService {
     public List<Student> getStudents() {
         return studentRepository.findAll();
     }
-
-    /*public List<Student> getStudents() {
-        return Arrays.asList(
-                new Student(
-                        1L,
-                        "Jack",
-                        "jack@gmail.com",
-                        29,
-                        LocalDate.of(1992, Month.JANUARY, 1)
-                )
-        );
-    }*/
-
 }
