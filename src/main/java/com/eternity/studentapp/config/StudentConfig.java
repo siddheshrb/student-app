@@ -25,8 +25,7 @@ public class StudentConfig {
                 Student student = new Student(
                         faker.name().fullName(),
                         getFakeEmail(faker),
-                        29,
-                        LocalDate.of(1992, Month.JANUARY, 1));
+                        LocalDate.of(1998, Month.JANUARY, 1));
 
                 studentList.add(student);
             }
